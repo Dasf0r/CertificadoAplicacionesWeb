@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Contact.css" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <h1>This is where you can contact with us</h1>
+    <p>
+      Fill out this form and we will see your feedback, hope we can respond as
+      fast as possible
+    </p>
+    <div class="contact-form">
+      <form action="contact.php" method="post" class="inline-form">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" required />
+        </div>
+        <div>
+          <label for="surname">Surname:</label>
+          <input type="text" name="surname" required />
+        </div>
+        <div>
+          <label for="sex">Sex:</label>
+          <label for="man">Man:</label>
+          <input type="radio" name="mw" value="m" />
+          <label for="woman">Woman:</label>
+          <input type="radio" name="mw" value="w" />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="text" name="phone" />
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" name="birthdate" />
+        </div>
+        <div style="text-align: center">
+          <input type="submit" value="Send" />
+          <input type="reset" value="Clear" />
+        </div>
+      </form>
+    </div>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Library.html">Libray</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
