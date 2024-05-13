@@ -14,7 +14,6 @@ p {
 }
 
 td {
-    width: 50%;
     border: 1px solid black;
 }
 
@@ -82,3 +81,42 @@ footer nav ul li a:hover {
     cursor: pointer;
     z-index: 999;
 }
+
+header nav {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner,
+  .copyright {
+    text-align: center;
+  }
+  
+  .info {
+      text-align: justify;
+  }
+  
+  .header_menu {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-spacing: 10px;
+  }
+  
+  .header_menu td:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .header_menu td {
+    padding-right: 100px;
+    padding-left: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: darkgrey;
+  }
+  
+  .header_menu a {
+      color: #fff;
+      text-decoration: none;
+  }
